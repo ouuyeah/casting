@@ -24,5 +24,4 @@ Next.Js (For basic routes) - Then you can use whatever you want for routes and l
 ReactJs - Main front library
 Styled-jsx - CSS
 StandardJs - Just to make code very clean.
-npm run dev
 ```
