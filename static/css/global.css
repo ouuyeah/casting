@@ -4,7 +4,7 @@ html {
 }
 body {
   background: #f7f7f7;
-  font-family: 'Arial';
+  font-family: 'Montserrat';
   margin: 0;
 }
 a{
@@ -30,10 +30,10 @@ div,footer,header {
   margin: 0px;
 }
 button, p, span, div, a, select, input{
-  font-family: 'Arial'
+  font-family: 'Montserrat'
 }
 h1, h2, h3, h4 {
-  font-family: 'Arial';
+  font-family: 'Montserrat';
   color: #4a4a4a;
 }
 button {

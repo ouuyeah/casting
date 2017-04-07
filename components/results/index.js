@@ -8,12 +8,12 @@ export default class Results extends React.Component {
         <div className='wrap container-fluid'>
           <div className='box'>
             <div className='row'>
-              <div className='col-md-6'>
+              <div className='col-md-6 col-xs-12'>
                 <div className='title'>
                   <h3>Here are your matches, darling!</h3>
                 </div>
               </div>
-              <div className='col-md-6'>
+              <div className='col-md-6 col-xs-12'>
                 <div className='you'>
                   <img src='/static/user.jpg' className='img-res' />
                 </div>
@@ -48,6 +48,17 @@ export default class Results extends React.Component {
           }
           .title h3 {
             width: 200px;
+          }
+          @media (max-width: 991px) {
+            .title {
+              text-align: left;
+              margin-left: 36px;
+              justify-content: center;
+            }
+            .title h3{width: 100%;}
+            .you {
+              text-align: center;
+            }
           }
         `}</style>
       </section>

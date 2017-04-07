@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import DropdownMenu from './dropdown_menu'
 
 export default class Header extends React.Component {
   render () {
@@ -10,9 +11,7 @@ export default class Header extends React.Component {
             <div className='logo'>
               <Link prefetch href='/'><a><img src='/static/logo.png' /></a></Link>
             </div>
-            <div className='rightNav'>
-              <img src='/static/user.jpg' />
-            </div>
+            <DropdownMenu />
           </div>
         </nav>
         <style jsx>{`
@@ -29,15 +28,19 @@ export default class Header extends React.Component {
             .logo img{
               width: 175px;
             }
-          .rightNav {
-            cursor: pointer;
-            float: right;
-            position: relative;
-            top: 40px;
-          }
-          .rightNav img{
-            border-radius: 56px;
-            width: 52px;
+
+          @media (max-width: 991px) {
+            header {
+              min-height: 79px;
+            }
+
+            .logo {
+              left: 0;
+              right: 34px;
+            }
+              .logo img {
+                width: 101px;
+              }
           }
         `}</style>
       </header>

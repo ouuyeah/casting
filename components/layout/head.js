@@ -9,6 +9,7 @@ export default class Header extends React.Component {
         <title>{ title }</title>
         <meta charSet='utf-8' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600' rel='stylesheet' />
         <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css' type='text/css' />
         <link rel='stylesheet' href='/static/css/global.css' type='text/css' />
       </Head>

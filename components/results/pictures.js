@@ -4,7 +4,7 @@ export default class Pictures extends React.Component {
   render () {
     return (
       <div className='row results'>
-        <div className='col-md-3 col-xs-12'>
+        <div className='col-md-3 col-sm-4 col-xs-12'>
           <div className='boxPicture'>
             <img src='/static/images/dwayne.jpg' className='img-res' />
             <div className='info'>
@@ -13,7 +13,7 @@ export default class Pictures extends React.Component {
             </div>
           </div>
         </div>
-        <div className='col-md-3 col-xs-12'>
+        <div className='col-md-3 col-sm-4 col-xs-12'>
           <div className='boxPicture'>
             <img src='/static/images/dwayne2.jpg' className='img-res' />
             <div className='info'>
@@ -22,7 +22,7 @@ export default class Pictures extends React.Component {
             </div>
           </div>
         </div>
-        <div className='col-md-3 col-xs-12'>
+        <div className='col-md-3 col-sm-4 col-xs-12'>
           <div className='boxPicture'>
             <img src='/static/images/dwayne3.jpg' className='img-res' />
             <div className='info'>
@@ -31,7 +31,7 @@ export default class Pictures extends React.Component {
             </div>
           </div>
         </div>
-        <div className='col-md-3 col-xs-12'>
+        <div className='col-md-3 col-sm-4 col-xs-12'>
           <div className='boxPicture'>
             <img src='/static/images/dwayne4.png' className='img-res' />
             <div className='info'>
@@ -39,7 +39,7 @@ export default class Pictures extends React.Component {
               <p>6'4 - 264lbs</p>
             </div>
           </div>
-        </div>        <div className='col-md-3 col-xs-12'>
+        </div>        <div className='col-md-3 col-sm-4 col-xs-12'>
           <div className='boxPicture'>
             <img src='/static/images/dwayne.jpg' className='img-res' />
             <div className='info'>
@@ -48,7 +48,7 @@ export default class Pictures extends React.Component {
             </div>
           </div>
         </div>
-        <div className='col-md-3 col-xs-12'>
+        <div className='col-md-3 col-sm-4 col-xs-12'>
           <div className='boxPicture'>
             <img src='/static/images/dwayne2.jpg' className='img-res' />
             <div className='info'>
@@ -57,7 +57,7 @@ export default class Pictures extends React.Component {
             </div>
           </div>
         </div>
-        <div className='col-md-3 col-xs-12'>
+        <div className='col-md-3 col-sm-4 col-xs-12'>
           <div className='boxPicture'>
             <img src='/static/images/dwayne3.jpg' className='img-res' />
             <div className='info'>
@@ -66,7 +66,7 @@ export default class Pictures extends React.Component {
             </div>
           </div>
         </div>
-        <div className='col-md-3 col-xs-12'>
+        <div className='col-md-3 col-sm-4 col-xs-12'>
           <div className='boxPicture'>
             <img src='/static/images/dwayne4.png' className='img-res' />
             <div className='info'>

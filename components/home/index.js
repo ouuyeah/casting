@@ -49,7 +49,6 @@ export default class Home extends React.Component {
             text-align: left;
             margin-top: 40px;
           }
-
         `}</style>
       </section>
     )
