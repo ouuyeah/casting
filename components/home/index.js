@@ -55,6 +55,12 @@ export default class Home extends React.Component {
               position: relative;
               right: 34px;
             }
+          @media (max-width: 991px) {
+            .title img {
+              right: 17px;
+              width: 84px;
+            }
+          }
         `}</style>
       </section>
     )

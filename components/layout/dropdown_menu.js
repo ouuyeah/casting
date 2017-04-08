@@ -48,6 +48,7 @@ export default class DropdownMenu extends React.Component {
             position: absolute;
             right: 0px;
             top: 105px;
+            z-index: 10;
           }
           .dropdown-content:before {
             bottom: auto;

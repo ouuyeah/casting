@@ -2,10 +2,17 @@ import React from 'react'
 
 export default class Options extends React.Component {
 
-  options = () => {
+  weightOptions = () => {
     let opts = []
     for (let i = 90; i < 301; i+=5) {
       opts.push(<option key={i} value='{i}'>{i}lbs</option>)
+    }
+    return opts
+  }
+  heightOptions = () => {
+    let opts = []
+    for (let i = 0; i <= 11; i++) {
+      opts.push(i)
     }
     return opts
   }
@@ -24,10 +31,22 @@ export default class Options extends React.Component {
               <select name='height'>
                 <option value=''>Select height</option>
                 <option value=''>Less than 4’</option>
-                <option value=''>4.5’</option>
-                <option value=''>5’</option>
-                <option value=''>5.5’</option>
+                {
+                  this.heightOptions().map(val => {
+                    return <option key={val} value=''>4’{val}</option>
+                  })
+                }
+                {
+                  this.heightOptions().map(val => {
+                    return <option key={val} value=''>5’{val}</option>
+                  })
+                }
+
                 <option value=''>6’</option>
+                <option value=''>6.1’</option>
+                <option value=''>6.2’</option>
+                <option value=''>6.3’</option>
+                <option value=''>6.4’</option>
                 <option value=''>6.5’</option>
                 <option value=''>More than 6’5 “</option>
               </select>
@@ -35,7 +54,7 @@ export default class Options extends React.Component {
                 <option value=''>Select weight</option>
                 <option value=''>Less than 90lbs</option>
                 {
-                  this.options()
+                  this.weightOptions()
                 }
                 <option value=''>More than 300lbs</option>
               </select>
