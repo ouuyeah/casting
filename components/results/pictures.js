@@ -8,7 +8,7 @@ export default class Pictures extends React.Component {
           <div className='boxPicture'>
             <img src='/static/images/dwayne.jpg' className='img-res' />
             <div className='info'>
-              <p>Dwayne Johnson - 44</p>
+              <p>Dwayne Johnson</p>
               <p>6'4 - 264lbs</p>
             </div>
           </div>
@@ -17,7 +17,7 @@ export default class Pictures extends React.Component {
           <div className='boxPicture'>
             <img src='/static/images/dwayne2.jpg' className='img-res' />
             <div className='info'>
-              <p>Dwayne Johnson - 44</p>
+              <p>Dwayne Johnson</p>
               <p>6'4 - 264lbs</p>
             </div>
           </div>
@@ -26,7 +26,7 @@ export default class Pictures extends React.Component {
           <div className='boxPicture'>
             <img src='/static/images/dwayne3.jpg' className='img-res' />
             <div className='info'>
-              <p>Dwayne Johnson - 44</p>
+              <p>Dwayne Johnson</p>
               <p>6'4 - 264lbs</p>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default class Pictures extends React.Component {
           <div className='boxPicture'>
             <img src='/static/images/dwayne4.png' className='img-res' />
             <div className='info'>
-              <p>Dwayne Johnson - 44</p>
+              <p>Dwayne Johnson</p>
               <p>6'4 - 264lbs</p>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default class Pictures extends React.Component {
           <div className='boxPicture'>
             <img src='/static/images/dwayne.jpg' className='img-res' />
             <div className='info'>
-              <p>Dwayne Johnson - 44</p>
+              <p>Dwayne Johnson</p>
               <p>6'4 - 264lbs</p>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default class Pictures extends React.Component {
           <div className='boxPicture'>
             <img src='/static/images/dwayne2.jpg' className='img-res' />
             <div className='info'>
-              <p>Dwayne Johnson - 44</p>
+              <p>Dwayne Johnson</p>
               <p>6'4 - 264lbs</p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default class Pictures extends React.Component {
           <div className='boxPicture'>
             <img src='/static/images/dwayne3.jpg' className='img-res' />
             <div className='info'>
-              <p>Dwayne Johnson - 44</p>
+              <p>Dwayne Johnson</p>
               <p>6'4 - 264lbs</p>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default class Pictures extends React.Component {
           <div className='boxPicture'>
             <img src='/static/images/dwayne4.png' className='img-res' />
             <div className='info'>
-              <p>Dwayne Johnson - 44</p>
+              <p>Dwayne Johnson</p>
               <p>6'4 - 264lbs</p>
             </div>
           </div>

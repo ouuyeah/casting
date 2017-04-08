@@ -10,7 +10,7 @@ export default class Results extends React.Component {
             <div className='row'>
               <div className='col-md-6 col-xs-12'>
                 <div className='title'>
-                  <h3>Here are your matches, darling!</h3>
+                  <img src='/static/images/stella.png' /><h3>Here are your matches, darling!</h3>
                 </div>
               </div>
               <div className='col-md-6 col-xs-12'>
@@ -46,14 +46,21 @@ export default class Results extends React.Component {
             justify-content: flex-end;
             text-align: left;
           }
-          .title h3 {
-            width: 200px;
-          }
+            .title h3 {
+              width: 200px;
+            }
+            .title img {
+              margin-bottom: 33px;
+              position: relative;
+              right: 34px;
+              top: 17px;
+              width: 175px;
+            }
           @media (max-width: 991px) {
             .title {
-              text-align: left;
-              margin-left: 36px;
               justify-content: center;
+              margin-left: 36px;
+              text-align: left;
             }
             .title h3{width: 100%;}
             .you {

@@ -26,7 +26,7 @@ export default class Header extends React.Component {
             position: relative;
           }
             .logo img{
-              width: 175px;
+              width: 192px;
             }
 
           @media (max-width: 991px) {

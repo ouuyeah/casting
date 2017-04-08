@@ -6,7 +6,7 @@ export default class DropBox extends React.Component {
     return (
       <div className='dropZone'>
         <Dropzone onDrop={this.onDrop} className='dropBox'>
-          <div>Try dropping some files here, or click to select files to upload.</div>
+          <div>Try dropping a headshot here, or click to upload.</div>
         </Dropzone>
         <style jsx global>{`
           .dropZone {

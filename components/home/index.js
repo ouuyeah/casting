@@ -10,6 +10,7 @@ export default class Home extends React.Component {
         <div className='wrap container-fluid'>
           <div className='box'>
             <div className='title'>
+              <img src='/static/images/stella.png' />
               <h3 className='col-md-7'>Darling, just upload a picture of the person you want to match and give me their stats, then I will work  my magic, it's gonna be a gas!</h3>
             </div>
             <DropBox />
@@ -45,10 +46,15 @@ export default class Home extends React.Component {
             display: flex;
             justify-content: center;
           }
-          .title h3 {
-            text-align: left;
-            margin-top: 40px;
-          }
+            .title h3 {
+              text-align: left;
+              margin-top: 40px;
+            }
+            .title img {
+              width: 175px;
+              position: relative;
+              right: 34px;
+            }
         `}</style>
       </section>
     )
