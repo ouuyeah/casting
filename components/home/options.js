@@ -43,12 +43,12 @@ export default class Options extends React.Component {
                 }
 
                 <option value=''>6’</option>
-                <option value=''>6.1’</option>
-                <option value=''>6.2’</option>
-                <option value=''>6.3’</option>
-                <option value=''>6.4’</option>
-                <option value=''>6.5’</option>
-                <option value=''>More than 6’5 “</option>
+                <option value=''>6’1</option>
+                <option value=''>6’2</option>
+                <option value=''>6’3</option>
+                <option value=''>6’4</option>
+                <option value=''>6’5</option>
+                <option value=''>More than 6’5</option>
               </select>
               <select name='weight'>
                 <option value=''>Select weight</option>
