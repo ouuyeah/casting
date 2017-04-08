@@ -62,6 +62,10 @@ export default class Results extends React.Component {
               margin-left: 36px;
               text-align: left;
             }
+              .title img {
+                right: 17px;
+                width: 84px;
+              }
             .title h3{width: 100%;}
             .you {
               text-align: center;
