@@ -64,14 +64,14 @@ export default class Options extends React.Component {
           .checks {
             position: relative;
             text-align: right;
-            top: 10px;
+            top: 15px;
           }
           .inputs {
             text-align: left;
           }
           @media (max-width: 991px) {
             .checks {
-              margin-bottom: 20px;
+              margin-bottom: 35px;
               text-align: center;
             }
             .inputs{
